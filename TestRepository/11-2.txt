@@ -1,0 +1,13 @@
+@startuml
+
+header Page Header
+footer Page %page% of %lastpage%
+
+title Example Title
+
+MainFunction -> calculate : データを計算する
+calculate -> getInput : 入力データ要求
+getInput -> calculate :入力データ
+calculate -> MainFunction : 計算結果
+
+@enduml
